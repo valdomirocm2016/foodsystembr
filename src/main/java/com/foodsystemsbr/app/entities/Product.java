@@ -25,10 +25,10 @@ public class Product {
 	private Double price;
 	private String imgUrl;
 	
-	@ManyToMany
+	/*@ManyToMany
 	@JoinTable(name="tb_product_category",joinColumns= @JoinColumn(name="product_id"),
 	inverseJoinColumns=@JoinColumn(name="category_id"))
-	private Set<Category> categories=new HashSet<>();
+	private Set<Category> categories=new HashSet<>();*/
 	
 	public Product() {
 		 
