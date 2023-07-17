@@ -1,4 +1,4 @@
-package com.foodsystembr.app.entities;
+package com.foodsystemsbr.app.entities;
 
 import java.util.HashSet;
 import java.util.Objects;

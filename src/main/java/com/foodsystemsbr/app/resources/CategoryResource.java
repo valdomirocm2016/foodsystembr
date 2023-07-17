@@ -1,4 +1,4 @@
-package com.foodsystembr.app.resources;
+package com.foodsystemsbr.app.resources;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.foodsystembr.app.dto.CategoryDTO;
-import com.foodsystembr.app.services.CategoryService;
+import com.foodsystemsbr.app.dto.CategoryDTO;
+import com.foodsystemsbr.app.services.CategoryService;
 
 @RestController
 @RequestMapping(value="/categories")

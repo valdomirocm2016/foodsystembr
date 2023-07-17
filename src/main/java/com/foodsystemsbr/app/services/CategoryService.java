@@ -1,4 +1,4 @@
-package com.foodsystembr.app.services;
+package com.foodsystemsbr.app.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.foodsystembr.app.dto.CategoryDTO;
-import com.foodsystembr.app.entities.Category;
-import com.foodsystembr.app.repositories.CategoryRepository;
+import com.foodsystemsbr.app.dto.CategoryDTO;
+import com.foodsystemsbr.app.entities.Category;
+import com.foodsystemsbr.app.repositories.CategoryRepository;
 
 @Service
 public class CategoryService {

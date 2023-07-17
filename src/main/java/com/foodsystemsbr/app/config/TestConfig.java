@@ -1,4 +1,4 @@
-package com.foodsystembr.app.config;
+package com.foodsystemsbr.app.config;
 
 import java.util.Arrays;
 
@@ -7,11 +7,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.foodsystembr.app.entities.Category;
-import com.foodsystembr.app.repositories.CategoryRepository;
+import com.foodsystemsbr.app.entities.Category;
+import com.foodsystemsbr.app.repositories.CategoryRepository;
 
 @Configuration
-@Profile("teste")
+@Profile("test")
 public class TestConfig implements CommandLineRunner{
 	
 	@Autowired
@@ -19,6 +19,8 @@ public class TestConfig implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
+		
+		System.out.println("iniciando carga no tb_category");
 		// TODO Auto-generated method stub
 		
 		Category cat1 = new Category(null,"Bebidas");

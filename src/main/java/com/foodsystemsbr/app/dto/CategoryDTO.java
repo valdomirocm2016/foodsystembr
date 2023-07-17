@@ -1,6 +1,6 @@
-package com.foodsystembr.app.dto;
+package com.foodsystemsbr.app.dto;
 
-import com.foodsystembr.app.entities.Category;
+import com.foodsystemsbr.app.entities.Category;
 
 public class CategoryDTO {
 	
